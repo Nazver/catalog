@@ -1,0 +1,20 @@
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+}
+
+.product-card button {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
